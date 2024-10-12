@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div>
+				
+			</div>
+			<h1>🕵🏻 <strong>¡Hola!</strong></h1>
+			<p>
+				<strong>Bienvenido</strong> al blog oficial dedicado al hacking, DevOps, programación y ciberseguridad. Aquí encontrarás una amplia gama de herramientas, recursos y guías diseñadas para mejorar tus habilidades en estas áreas.
+			</p>
+			<p>
+				<strong>Este blog está dirigido a todos aquellos que deseen profundizar en:</strong>
+			</p>
+			<ul>
+				<li><strong>Hacking ético:</strong> Exploración de técnicas avanzadas y herramientas clave.</li>
+				<li><strong>DevOps:</strong> Automatización, integración y despliegue continuo para optimizar flujos de trabajo.</li>
+				<li><strong>Programación:</strong> Mejora de tus habilidades con guías y recursos de lenguajes de programación.</li>
+				<li><strong>Ciberseguridad:</strong> Buenas prácticas para proteger sistemas y redes.</li>
+			</ul>
+			<p>
+				<strong>Publicaciones regulares:</strong> Estaremos publicando nuevas herramientas de hacking, tutoriales prácticos y recursos para ayudarte a estar al día en el campo de la seguridad informática.
+			</p>
+			<p>
+				<strong>Objetivo:</strong> Si estás interesado en aprender y mantenerte actualizado con las mejores herramientas y estrategias en estas áreas, este es el lugar indicado.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
